@@ -58,7 +58,3 @@ The API allows users to perform the following operations:
  ```bash
  git clone git@github.com:VSawyerHub/ForoHub.git
 
-2. Run the project:
-
- ```bash
-mvn spring-boot:run
