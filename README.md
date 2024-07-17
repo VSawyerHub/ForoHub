@@ -1,66 +1,64 @@
-# ForoHub - Desafio Backend
+# ForoHub - Backend Challenge
 
-Este projeto é parte do desafio ForoHub, onde desenvolvemos uma API REST utilizando Spring para gerenciar tópicos.
+This project is part of the ForoHub challenge, where we developed a REST API using Spring to manage topics.
 
 <p align="center">
 <img src="https://github.com/VSawyerHub/ForoHub/blob/master/Badge-Spring.png" />
 </p>
 
-Este é o nosso desafio, chamado de FórumHub: nele, vamos replicar este processo no nível do back end e, para isso, criaremos uma API REST usando Spring.
+This is our challenge, called ForumHub: in it, we will replicate this process at the back end level and, for this, we will create a REST API using Spring.
 
-Nossa API se concentrará especificamente nos tópicos, e deve permitir aos usuários:
+Our API will focus specifically on topics, and should allow users to:
 
-Criar um novo tópico;
-Mostrar todos os tópicos criados;
-Mostrar um tópico específico;
-Atualizar um tópico;
-Eliminar um tópico.
-É o que conhecemos normalmente como CRUD (CREATE, READ, UPDATE, DELETE)* e é muito parecido com o que desenvolvemos no LiterAlura, mas agora de forma completa, agregando as operações de UPDATE e DELETE, e usando um framework que facilitará muito o nosso trabalho.
+Create a new topic;
+Show all created topics;
+Show a specific topic;
+Update a topic;
+Delete a topic.
+This is what we normally know as CRUD (CREATE, READ, UPDATE, DELETE)* and it is very similar to what we developed in LiterAlura, but now in a complete way, adding the UPDATE and DELETE operations, and using a framework that will make it much easier. our work.
 
-*Tradução livre (em ordem): Criar, Consultar, Atualizar e Deletar.
+*Free translation (in order): Create, Consult, Update and Delete.
 
-Em resumo, nosso objetivo com este challenge é implementar uma API REST com as seguintes funcionalidades:
+In summary, our objective with this challenge is to implement a REST API with the following functionalities:
 
-API com rotas implementadas seguindo as melhores práticas do modelo REST;
-Validações realizadas segundo as regras de negócio;
-Implementação de uma base de dados relacional para a persistência da informação;
-Serviço de autenticação/autorização para restringir o acesso à informação.
+API with routes implemented following the best practices of the REST model;
+Validations carried out according to business rules;
+Implementation of a relational database for information persistence;
+Authentication/authorization service to restrict access to information.
 
-## Funcionalidades
+## Functionalities
 
-A API permite aos usuários realizar as seguintes operações:
+The API allows users to perform the following operations:
 
-- **Criar um novo tópico**: Permite que um usuário crie um novo tópico com título, conteúdo e autor.
-- **Listar todos os tópicos**: Retorna uma lista de todos os tópicos existentes.
-- **Buscar um tópico específico**: Retorna os detalhes de um tópico específico baseado no ID.
-- **Atualizar um tópico**: Permite a atualização do título e/ou conteúdo de um tópico existente.
-- **Excluir um tópico**: Remove um tópico da base de dados.
+- **Create a new topic**: Allows a user to create a new topic with title, content and author.
+- **List all topics**: Returns a list of all existing topics.
+- **Search a specific topic**: Returns the details of a specific topic based on the ID.
+- **Update a topic**: Allows you to update the title and/or content of an existing topic.
+- **Delete a topic**: Removes a topic from the database.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Spring Boot**: Framework utilizado para criar a aplicação em Java.
-- **Spring Data JPA**: Facilita o acesso e a persistência de dados em bancos relacionais.
-- **H2 Database**: Banco de dados em memória para facilitar o desenvolvimento e testes.
-- **Maven**: Gerenciador de dependências e build do projeto.
+- **Spring Boot**: Framework used to create the application in Java.
+- **Spring Data JPA**: Facilitates access and persistence of data in relational databases.
+- **H2 Database**: In-memory database to facilitate development and testing.
+- **Maven**: Project dependency and build manager.
 
 
-## Como Usar
+## How to use
 
-### Pré-requisitos
+### Prerequisites
 
-- JDK 8 ou superior
+- JDK 8 or higher
 - Maven
-- IDE de sua preferência (Eclipse, IntelliJ IDEA, etc.)
+- IDE of your choice (Eclipse, IntelliJ IDEA, etc.)
 
-### Configuração
+### Settings
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/forumhub.git
+1. Clone the repository:
+ ```bash
+ git clone git@github.com:VSawyerHub/ForoHub.git
 
-2. Execute o projeto:
+2. Run the project:
 
-  ```bash
+ ```bash
 mvn spring-boot:run
-
-
